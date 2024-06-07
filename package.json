@@ -1,0 +1,28 @@
+{
+  "name": "react_practice",
+  "version": "1.0.0",
+  "description": "Namaste React by Akshay Saini",
+  "scripts": {
+    "test": "jest",
+    "start": "npx parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "Tanushi Gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "postcss": "^8.4.38",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1"
+  },
+  "browserList": [
+    "last 2 chrome version"
+  ]
+}
